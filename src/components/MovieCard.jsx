@@ -9,7 +9,7 @@ const MovieCard = ({ movie }) => {
         <img src={movie.url} alt={movie.title} />
         <div>
           <button className="favourite-btn" onClick={onFavouriteClick}>
-            {" "}
+            🤍
           </button>
         </div>
       </div>
