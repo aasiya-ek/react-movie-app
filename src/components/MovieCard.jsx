@@ -8,7 +8,7 @@ const MovieCard = ({ movie }) => {
   return (
     <div className="movie-card">
       <div className="movie-poster">
-        <img src={movie.url} alt={movie.title} />
+        <img src={movie.Poster} alt={movie.Title} />
         <div>
           <button className="favourite-btn" onClick={onFavouriteClick}>
             🤍
@@ -16,7 +16,7 @@ const MovieCard = ({ movie }) => {
         </div>
       </div>
       <div>
-        <h3>{movie.title}</h3>
+        <h3>{movie.Title}</h3>
         <p>{movie.release_date}</p>
       </div>
     </div>
